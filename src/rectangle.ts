@@ -12,5 +12,5 @@ class Rectangle {
     }
 }
 
-const rect = new Rectangle(5, 10);
+const rect = new Rectangle(5, 10)
 console.log(rect.getArea()) // After fixing: will print 50
