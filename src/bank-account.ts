@@ -10,5 +10,5 @@ class BankAccount {
     }
 }
 
-const myAccount = new BankAccount(500)
+const myAccount = new BankAccount(500);
 console.log(myAccount.deposit(100)) // After fixing: will print 600
